@@ -1,0 +1,30 @@
+{
+
+  "description": "Encrypt and decrypt message on slack using pre-shared keys",
+  "manifest_version": 2,
+  "name": "SlackMessageEncoder",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mderouet/SlackMessageEncoder",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+   "browser_action": {
+    "default_title": "Slack Message Encoder",
+    "default_popup": "popup/popup.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-qznLcsROx4GACP2dm0UCKCzCG+HiZ1guq6ZZDob/Tng='; object-src 'self'",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.slack.com/*"],
+      "js": [
+        "assets/jquery-3.4.1.min.js",
+        "lib/crypto.js",
+        "slackEncoder.js"
+      ]
+    }
+  ]
+}
