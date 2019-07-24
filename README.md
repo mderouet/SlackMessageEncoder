@@ -6,4 +6,4 @@ Create an encryption key (clic on icon and enter a key) and share it to your mat
 Type a message and then encrypt it using the alt key
 
 ## Goal ?
-Preserve your anonymousity on slack since companies are now able to read private messages
+Preserve your confidentiality on slack since companies are now able to read private messages
