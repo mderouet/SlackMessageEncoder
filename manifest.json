@@ -6,7 +6,7 @@
   "version": "1.0",
   "homepage_url": "https://github.com/mderouet/SlackMessageEncoder",
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/slack-48.png"
   },
 
    "browser_action": {
