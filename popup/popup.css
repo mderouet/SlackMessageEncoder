@@ -7,8 +7,8 @@ textarea {
     padding: 10px;
     line-height: 1.5;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+    border: 1px solid #008CBA;
+    box-shadow: 1px 1px 1px rgb(71, 133, 214);
 }
 
 label {
@@ -23,7 +23,7 @@ label {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -33,6 +33,8 @@ label {
     background-color: white; 
     color: black; 
     border: 2px solid #008CBA;
+    width: 50px;
+    height: 25px;
   }
   
   .button-hover:hover {
