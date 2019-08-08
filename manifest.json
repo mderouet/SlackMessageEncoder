@@ -8,7 +8,6 @@
   "icons": {
     "48": "icons/slack-48.png"
   },
-
    "browser_action": {
     "default_title": "Slack Message Encoder",
     "default_popup": "popup/popup.html"
