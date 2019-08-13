@@ -2,7 +2,7 @@
 
   "description": "Encrypt and decrypt message on slack using pre-shared keys",
   "manifest_version": 2,
-  "name": "SlackMessageEncoder",
+  "name": "Slack Message Encoder",
   "version": "1.0",
   "homepage_url": "https://github.com/mderouet/SlackMessageEncoder",
   "icons": {
